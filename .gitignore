@@ -1,0 +1,29 @@
+# Django related files
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Development and testing files
+*.log
+.env
+.env.*
+.idea/
+.vscode/
+
+# Static files
+staticfiles/
+media/
+
+# Secret files
+secret_key.txt
+
+# Ignore migrations
+**/migrations/
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore Heroku files
+runtime.txt
+*.pyc

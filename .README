@@ -1,0 +1,27 @@
+These are the packages you need to install for this project:
+
+# 1.djangorestframework 3.14.0
+
+# 2.django-cors-headers 3.13.0
+
+# 3.djoser 2.1.0///for token baced authentification
+
+# 4.Pillow 9.3.0///for image processing
+
+# 5.social-auth-app-django 5.2.0///for sigin in using social media accounts
+
+WEHEN YOU FIRST ENTER THE PROJECT TYPE THESE COMMANDS:
+
+# python manage.py makemigrations
+
+then :
+
+# python manage.py migrate
+
+then create a new superuser using :
+
+# python manage.py createsuperuser
+
+Finally you can run :
+
+# python manage.py runserver
